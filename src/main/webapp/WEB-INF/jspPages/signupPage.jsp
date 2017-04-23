@@ -17,7 +17,7 @@ div{
 
 <div>
 <h2><b>Create Account</b></h2>
-<form action = "***" method="post" enctype='application/json'>
+<form action = "/funcart/signupDetail" method="post" enctype='application/json'>
     <label><b>Username</b></label><br>
     <input type="text" placeholder="Enter Your Name" name="username" required><br><br>
     

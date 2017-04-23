@@ -14,15 +14,15 @@ div{
 </head>
 <body>
 <div>
-<h2><b>Sign In</b></h2>
-<form action = "***" method="post" enctype='application/json'>
+<h2><b>Log In</b></h2>
+<form action = "/funcart/loginDetail" method="post" enctype='application/json'>
     <label><b>Username</b></label><br>
     <input type="text" placeholder="Enter Your Name" name="username" required><br><br>
 
     <label><b>Password</b></label><br>
     <input type="password" placeholder="Enter Password" name="passoword" required><br><br>
     
-    <button type="submit" name="singinButton">log In</button> or <a href="/funcart/signupPage">SignUp</a>
+    <button type="submit" name="loginButton">log In</button> or <a href="/funcart/signupPage">SignUp</a>
 </form>
 </div>
 </body>
